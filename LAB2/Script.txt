@@ -1,0 +1,129 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210324173259
+Username: LAPTOP-8HPEVHE6\Pankaj
+RunAs User: LAPTOP-8HPEVHE6\Pankaj
+Configuration Name: 
+Machine: LAPTOP-8HPEVHE6 (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 9844
+PSVersion: 5.1.19041.610
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.610
+BuildVersion: 10.0.19041.610
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Script.txt
+PS C:\Users\Pankaj\Desktop\NS_2> python lab2.py
+CreateKeys
+Usernames.txt
+1024
+Key Pairs Created!
+PS C:\Users\Pankaj\Desktop\NS_2> python lab2.py
+CreateMail
+AUIN
+deadpool
+flash
+Mail-Sample.txt
+Mail-Out.txt
+sha512
+aes-256-cbc
+1024
+AUIN encryption Finished!
+PS C:\Users\Pankaj\Desktop\NS_2> python lab2.py
+ReadMail
+AUIN
+deadpool
+flash
+Mail-Out.txt
+Mail-decrypt.txt
+sha512
+aes-256-cbc
+1024
+SUCCESS! hash values matched
+PS C:\Users\Pankaj\Desktop\NS_2> python lab2.py
+CreateMail
+COAI
+deadpool
+flash
+Mail-Sample.txt
+Mail-Out.txt
+sha512
+aes-256-cbc
+1024
+COAI encryption Finished!
+PS C:\Users\Pankaj\Desktop\NS_2> python lab2.py
+ReadMail
+COAI
+deadpool
+flash
+Mail-Out.txt
+Mail-decrypt.txt
+sha512
+aes-256-cbc
+1024
+COAI decryption Finished!
+PS C:\Users\Pankaj\Desktop\NS_2> fc.exe Mail-Sample.txt Mail-decrypt.txt
+Comparing files Mail-Sample.txt and MAIL-DECRYPT.TXT
+FC: no differences encountered
+PS C:\Users\Pankaj\Desktop\NS_2> python lab2.py
+CreateMail
+COAI
+deadpool
+flash
+Mail-Sample.txt
+Mail-Out.txt
+sha3-512
+des-ede3-cbc
+1024
+COAI encryption Finished!
+PS C:\Users\Pankaj\Desktop\NS_2> python lab2.py
+ReadMail
+COAI
+deadpool
+flash
+Mail-Out.txt
+Mail-decrypt.txt
+sha3-512
+des-ede3-cbc
+1024
+COAI decryption Finished!
+PS C:\Users\Pankaj\Desktop\NS_2> fc.exe Mail-Sample.txt Mail-decrypt.txt
+Comparing files Mail-Sample.txt and MAIL-DECRYPT.TXT
+FC: no differences encountered
+PS C:\Users\Pankaj\Desktop\NS_2> python lab2.py
+CreateMail
+CONF
+deadpool
+flash
+Mail-Sample.txt
+Mail-out.txt
+sha3-512
+des-ede3-cbc
+1024
+CONF encryption Finished!
+PS C:\Users\Pankaj\Desktop\NS_2> python lab2.py
+ReadMail
+CONF
+deadpool
+flash
+Mail-out.txt
+Mail-dec.txt
+sha3-512
+des-ede3-cbc
+1024
+CONF decryption Finished!
+PS C:\Users\Pankaj\Desktop\NS_2> fc.exe Mail-Sample.txt Mail-decrypt.txt
+Comparing files Mail-Sample.txt and MAIL-DECRYPT.TXT
+FC: cannot open MAIL-DECRYPT.TXT - No such file or folder
+PS C:\Users\Pankaj\Desktop\NS_2> fc.exe Mail-Sample.txt Mail-dec.txt
+Comparing files Mail-Sample.txt and MAIL-DEC.TXT
+FC: no differences encountered
+PS C:\Users\Pankaj\Desktop\NS_2> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20210324180611
+**********************
