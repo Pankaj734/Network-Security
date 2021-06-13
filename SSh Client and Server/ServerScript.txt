@@ -1,0 +1,30 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210419001440
+Username: LAPTOP-8HPEVHE6\Pankaj
+RunAs User: LAPTOP-8HPEVHE6\Pankaj
+Configuration Name: 
+Machine: LAPTOP-8HPEVHE6 (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 14356
+PSVersion: 5.1.19041.906
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.906
+BuildVersion: 10.0.19041.906
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ServerScript.txt
+PS D:\NetworkSecurity\Lab4> python3 server.py
+IP : 192.168.56.1
+Port : 12345
+Connection established <socket.socket fd=1200, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr
+=('192.168.56.1', 12345), raddr=('192.168.56.1', 65285)>
+Shuting Down !
+PS D:\NetworkSecurity\Lab4> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20210419002026
+**********************

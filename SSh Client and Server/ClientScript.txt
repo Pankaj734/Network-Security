@@ -1,0 +1,68 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210419001416
+Username: LAPTOP-8HPEVHE6\Pankaj
+RunAs User: LAPTOP-8HPEVHE6\Pankaj
+Configuration Name: 
+Machine: LAPTOP-8HPEVHE6 (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 23712
+PSVersion: 5.1.19041.906
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.906
+BuildVersion: 10.0.19041.906
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ClientScript.txt
+PS D:\NetworkSecurity\Lab4> cd ClientDir
+PS D:\NetworkSecurity\Lab4\ClientDir> python3 client.py
+S for | D for different machine usage : S
+Port : 12345
+Username : pankaj
+Key saved
+Enter 8-character(a-z,0-9) password : pankaj12
+Authentication Successful !
+Enter command : listfiles
+ClientDir
+ClientScript.txt
+eg.py
+pankaj.txt
+server.py
+serverkeys
+ServerScript.txt
+temp.pem
+UserCredentials
+
+Enter command : cwd
+D:\NetworkSecurity\Lab4
+Enter command : cp pankaj.txt D:\NetworkSecurity\Lab4\ D:\NetworkSecurity\Lab4\ClientDir
+Copy DONE !
+Enter command : cp pankaj.txt D:\NetworkSecurity\Lab4\ D:\NetworkSecurity\Lab4\ClientDir\
+Copy DONE !
+Enter command : mv temp.pem D:\NetworkSecurity\Lab4\ D:\NetworkSecurity\Lab4\ClientDir
+Move DONE !
+Enter command : mv temp.pem D:\NetworkSecurity\Lab4\ D:\NetworkSecurity\Lab4\ClientDir\
+Error Occured
+Enter command : listfiles
+ClientDir
+ClientDirpankaj.txt
+ClientDirtemp.pem
+ClientScript.txt
+eg.py
+pankaj.txt
+server.py
+serverkeys
+ServerScript.txt
+UserCredentials
+
+Enter command : mv ClientDirtemp.pem D:\NetworkSecurity\Lab4\ D:\NetworkSecurity\Lab4\ClientDir\
+Move DONE !
+Enter command : logout
+PS D:\NetworkSecurity\Lab4\ClientDir> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20210419002018
+**********************

@@ -1,0 +1,69 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210613140648
+Username: LAPTOP-8HPEVHE6\Pankaj
+RunAs User: LAPTOP-8HPEVHE6\Pankaj
+Configuration Name: 
+Machine: LAPTOP-8HPEVHE6 (Microsoft Windows NT 10.0.19043.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 13916
+PSVersion: 5.1.19041.1023
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1023
+BuildVersion: 10.0.19041.1023
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Script.txt
+PS D:\NetworkSecurity\Firewall - Packets and Rule matching> python3 main.py rf1.txt pf1.txt
+A total of 10 rules were read; 10 valid rules are stored.
+Packet number 1 is Invalid.
+Packet number 2 matches rule(s): 1.
+Packet number 3 matches rule(s): 2.
+Packet number 4 matches rule(s): 2.
+Packet number 5 matches rule(s): 2.
+Packet number 6 is Invalid.
+Packet number 7 matches rule(s): 3.
+Packet number 8 matches rule(s): 3.
+Packet number 9 is Invalid.
+Packet number 10 is Invalid.
+Packet number 11 matches no rule.
+Packet number 12 matches rule(s): 4.
+Packet number 13 matches no rule.
+Packet number 14 matches no rule.
+Packet number 15 matches rule(s): 5.
+Packet number 16 matches rule(s): 5.
+Packet number 17 matches rule(s): 5.
+Packet number 18 matches rule(s): 5.
+Packet number 19 matches rule(s): 5.
+Packet number 20 matches rule(s): 6.
+Packet number 21 matches no rule.
+Packet number 22 matches rule(s): 6.
+Packet number 23 matches rule(s): 6.
+Packet number 24 matches no rule.
+Packet number 25 matches rule(s): 6.
+Packet number 26 matches rule(s): 7.
+Packet number 27 matches no rule.
+Packet number 28 matches no rule.
+Packet number 29 matches rule(s): 8.
+Packet number 30 matches rule(s): 8.
+Packet number 31 matches rule(s): 8.
+Packet number 32 matches no rule.
+Packet number 33 matches no rule.
+Packet number 34 matches rule(s): 9.
+Packet number 35 matches rule(s): 9.
+Packet number 36 matches rule(s): 9.
+Packet number 37 matches rule(s): 9.
+Packet number 38 matches rule(s): 10.
+Packet number 39 matches rule(s): 10.
+Packet number 40 matches rule(s): 10.
+Packet number 41 matches no rule.
+A total of 41 packet(s) were read from the file and 37 valid packet(s) processed. Bye.
+Average time taken per packet: 0.0 seconds.
+PS D:\NetworkSecurity\Firewall - Packets and Rule matching> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20210613140741
+**********************
